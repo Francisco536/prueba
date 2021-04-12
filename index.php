@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>  
+ala<html>  
   <head>
     <!--  en primeras líneas de código estamos llamando a las dos librerías de Aframe y ARJS. --> 
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script> 
@@ -9,8 +9,8 @@
   <body>
     <!-- Scene embedded será el lanzador de la realidad aumentada--> 
     <a-scene embedded arjs>
-      <a-entity scale=" 0.2 0.2 0.2"> 
-        <a-entity gltf-model="ob.glb" rotation="0 9 10" crossOrigin="anonymous"></a-entity>
+      <a-entity scale=".7 .7 .7"> 
+        <a-entity gltf-model="ob.glb" rotation="90 0 10" crossOrigin="anonymous"></a-entity>
         <a-marker-camera preset='hiro'></a-marker-camera>
         </a-scene>
       </body>
